@@ -1,0 +1,5 @@
+﻿Add-Migration -o Data\MOMigrations Initial
+Update-Database
+
+Add to Migration
+ExtraMigration.Steps(migrationBuilder);
